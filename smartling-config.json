@@ -11,15 +11,15 @@
     ],
     "resourceSets": [
         {
-           "type"                      : "resx",
-		   // Expressions below will convert
-		   // "BL/Common/Resources/Resource.en.resx" to "BL/translated/Resource.zh-CHS.resx"
-           //"pathRegex"                 : "BL\\/Common\\/Resources\\/.*\\.en\\.resx",
-           //"translationPathExpression" : "BL/translated/${originalFile.baseName.replaceAll('\\\\.en$', '.'+locale)}.${originalFile.extension}",
-		   // Or another option
-		   "pathRegex"                 : "BL\\/Common\\/Resources\\/(?<file_name>.*)\\.en\\.resx",
-		   "translationPathExpression" : "BL/translated/${file_name}.$locale.${originalFile.extension}",
-           "translationCommitMessage"  : "Translate ${originalFile.fullName} to ${locale}"
+            "type"                      : "resx",
+            // Expressions below will convert
+            // "BL/Common/Resources/Resource.en.resx" to "BL/translated/Resource.zh-CHS.resx"
+            //"pathRegex"                 : "BL\\/Common\\/Resources\\/.*\\.en\\.resx",
+            //"translationPathExpression" : "BL/translated/${originalFile.baseName.replaceAll('\\\\.en$', '.'+locale)}.${originalFile.extension}",
+            // Or another option
+            "pathRegex"                 : "BL\\/Common\\/Resources\\/(?<file_name>.*)\\.en\\.resx",
+            "translationPathExpression" : "BL/translated/${file_name}.$locale.${originalFile.extension}",
+            "translationCommitMessage"  : "Translate ${originalFile.fullName} to ${locale}"
         }
     ]
 }
