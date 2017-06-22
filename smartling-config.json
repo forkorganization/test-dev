@@ -183,7 +183,6 @@
             "type"      : "html",
             "pathRegex" : "mobile\\/SstoMobile\\/SstoMobile\\.Shared\\.UI\\/Htmls\\/opensource\\.html",
             "translationPathExpression" : "${originalFile.path}${originalFile.baseName}-${locale}.${originalFile.extension}"
-            ]
         }
     ]
 }
