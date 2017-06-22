@@ -1,0 +1,17 @@
+{
+  "smartling": {
+    "translate_paths": ["*/text"],
+    "placeholder_format_custom": ["\\{!/?[^\\}]+?\\}"]
+  },
+  "bundle": [
+    {
+      "text": "Local"
+    },
+    {
+      "text": "Remove logs older than a specified age"
+    },
+    {
+      "text": "Retain only a specific amount of log entries</a>"
+    }
+  ]
+}

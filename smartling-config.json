@@ -1,19 +1,188 @@
 {
-    "locales" : [
-        {
-            "smartling"   : "zh-CN",
-            "application" : "zh_Hans"
-        },
-        {
-            "smartling"   : "nl-NL",
-            "application" : "nl_NL"
+    "locales": [
+         "smartling" : "de-DE",
+         "application" : "de"
         }
     ],
     "resourceSets": [
         {
-            "pathRegex"                 : "messages/(?<path>.*)\\.properties",
-            "translationPathExpression" : "/translated/${path}_${locale}.${originalFile.extension}",
-            "type"                      : "javaProperties"
+            "type"      : "json",
+            "pathRegex" : "api2\\/resources\\/us\\.json",
+            "translationPathExpression" : "${originalFile.path}${originalFile.baseName}.${locale}.${originalFile.extension}"
+        },
+        {
+            "type"      : "json",
+            // 24 source en.json files are found in this directory's subdirectories. Same rules for all files.
+            "pathRegex" : "web\\/app\\/(.*\\/)?en\\.json",
+            "translationPathExpression" : "${originalFile.path}${originalFile.baseName}.${locale}.${originalFile.extension}"
+        },
+        {
+            "type"      : "xml",
+            "pathRegex" : "mobile\\/SstoMobile\\/SstoMobile\\.Shared\\.Localization\\/Resx\\/TextResources\\.resx",
+            "translationPathExpression" : "${originalFile.path}${originalFile.baseName}.${locale}.${originalFile.extension}"
+        },        
+        {
+            "type"      : "plaintext",
+            "pathRegex" : "mobile\\/publishPlayStore\\/(short|long)-description\\.txt",
+            "translationPathExpression" : "${originalFile.path}${originalFile.baseName}.${locale}.${originalFile.extension}",
+            "locales": [
+                {
+                 "smartling" : "da-DK",
+                 "application" : "da"
+                },
+                {
+                 "smartling" : "sv-SE",
+                 "application" : "sv"
+                },
+                {
+                 "smartling" : "fr-FR",
+                 "application" : "fr-FR"
+                },
+                {
+                 "smartling" : "de-DE",
+                 "application" : "de"
+                },
+                {
+                 "smartling" : "ja-JP",
+                 "application" : "ja"
+                },
+                {
+                 "smartling" : "en-NZ",
+                 "application" : "en-NZ"
+                },
+                {
+                 "smartling" : "pt-BR",
+                 "application" : "pt-BR"
+                },
+                {
+                 "smartling" : "en-CA",
+                 "application" : "en-CA"
+                },
+                {
+                 "smartling" : "fr-CA",
+                 "application" : "fr-CA"
+                },
+                {
+                 "smartling" : "es-US",
+                 "application" : "es-US"
+                },
+                {
+                 "smartling" : "en-UK",
+                 "application" : "en-GB"
+                },
+                {
+                 "smartling" : "en-AU",
+                 "application" : "en-AU"
+                },
+                {
+                 "smartling" : "en-IE",
+                 "application" : "en-IE"
+                },
+                {
+                 "smartling" : "fi",
+                 "application" : "fi"
+                },
+                {
+                 "smartling" : "it",
+                 "application" : "it"
+                },
+                {
+                 "smartling" : "no",
+                 "application" : "no"
+                }
+            ]
+        },
+        {
+            "type"      : "plaintext",
+            "pathRegex" : "mobile\\/publish-iOS\\/(keywords|whats-new|description)\\.txt",
+            "translationPathExpression" : "${originalFile.path}${originalFile.baseName}.${locale}.${originalFile.extension}",
+            "locales": [
+                {
+                 "smartling" : "da-DK",
+                 "application" : "da"
+                },
+                {
+                 "smartling" : "sv-SE",
+                 "application" : "sv"
+                },
+                {
+                 "smartling" : "fr-FR",
+                 "application" : "fr-FR"
+                },
+                {
+                 "smartling" : "de-DE",
+                 "application" : "de"
+                },
+                {
+                 "smartling" : "ja-JP",
+                 "application" : "ja"
+                },
+                {
+                 "smartling" : "en-NZ",
+                 "application" : "en-NZ"
+                },
+                {
+                 "smartling" : "pt-BR",
+                 "application" : "pt-BR"
+                },
+                {
+                 "smartling" : "en-CA",
+                 "application" : "en-CA"
+                },
+                {
+                 "smartling" : "fr-CA",
+                 "application" : "fr-CA"
+                },
+                {
+                 "smartling" : "es-US",
+                 "application" : "es-US"
+                },
+                {
+                 "smartling" : "en-UK",
+                 "application" : "en-GB"
+                },
+                {
+                 "smartling" : "en-AU",
+                 "application" : "en-AU"
+                },
+                {
+                 "smartling" : "en-IE",
+                 "application" : "en-IE"
+                },
+                {
+                 "smartling" : "fi",
+                 "application" : "fi"
+                },
+                {
+                 "smartling" : "it",
+                 "application" : "it"
+                },
+                {
+                 "smartling" : "no",
+                 "application" : "no"
+                }
+            ]
+        },
+        {
+            "type"      : "csv",
+            "pathRegex" : "db\\/data\\/locale_dict\\/en\\.csv",
+            "translationPathExpression" : "${originalFile.path}${locale}.${originalFile.extension}"
+        },
+        {
+            "type"      : "csv",
+            "pathRegex" : "web\\/app\\/assets\\/csv\\/(.*\\/)?SSTOcontacts_en\\.csv",
+            "translationPathExpression" : "${originalFile.path}${originalFile.baseName.replaceAll('_en$', '_'+locale)}.${originalFile.extension}"
+        },
+        {
+            "type"      : "html",
+            "pathRegex" : "api2\\/templates\\/(free_trial_email|package_notification|welcome_email)\\.html",
+            "translationPathExpression" : "${originalFile.path}${originalFile.baseName}.${locale}.${originalFile.extension}"
+        },
+        {
+            "type"      : "html",
+            "pathRegex" : "mobile\\/SstoMobile\\/SstoMobile\\.Shared\\.UI\\/Htmls\\/opensource\\.html",
+            "translationPathExpression" : "${originalFile.path}${originalFile.baseName}-${locale}.${originalFile.extension}"
+            ]
         }
     ]
 }

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- smartling.translate_paths = /contentItems/value -->
+<!-- smartling.string_format_paths = html : /contentItems/value -->
+<!-- smartling.placeholder_format_custom = \{\d\} -->
+<contentItems>
+<value><![CDATA[Hello, how are you]]></value>
+<value><![CDATA[Invalid 3 & character in <span>html, and</span> valid &amp;. Also <a href="www.google.com?param1&param2">link with &</a>]]></value>
+<value><![CDATA[{0} Advanced branching 3. Paper Size: <a href="http://google.com/search" paper-size class="white"> <span class="letter"></span>{3} </a> Valid <span>html</span> &amp; <a href="www.google.com?param1&amp;param2">link with &lt; </a>]]></value>
+</contentItems>
