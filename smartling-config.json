@@ -9,13 +9,13 @@
         {
             "type"      : "json",
             "pathRegex" : "api2\\/resources\\/us\\.json",
-            "translationPathExpression" : "${originalFile.path}${originalFile.baseName}.${locale}.${originalFile.extension}"
+            "translationPathExpression" : "${originalFile.path}${locale}.${originalFile.extension}"
         },
         {
             "type"      : "json",
             // 24 source en.json files are found in this directory's subdirectories. Same rules for all files.
             "pathRegex" : "web\\/app\\/(.*\\/)?en\\.json",
-            "translationPathExpression" : "${originalFile.path}${originalFile.baseName}.${locale}.${originalFile.extension}"
+            "translationPathExpression" : "${originalFile.path}${locale}.${originalFile.extension}"
         },
         {
             "type"      : "xml",
