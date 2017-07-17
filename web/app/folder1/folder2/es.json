@@ -1,0 +1,18 @@
+{
+  "smartling" : {
+    "translate_paths" : ["*/text"],
+    "placeholder_format_custom" : ["\\{!/?[^\\}]+?\\}"]
+  },
+  "bundle" : [
+  {
+    "text" : "Local"
+  },
+
+  {
+    "text" : "Eliminar registros mayores de cierta edad especificada"
+  },
+
+  {
+    "text" : "Conservar sólo una cantidad específica de las entradas del registro</a>"
+  }]
+}
