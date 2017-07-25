@@ -9,10 +9,10 @@
   },
 
   {
-    "text" : "Remove logs older than a specified age"
+    "text" : "Eliminar registros mayores de cierta edad especificada"
   },
 
   {
-    "text" : "Retain only a specific amount of log entries</a>"
+    "text" : "Conservar sólo una cantidad específica de las entradas del registro</a>"
   }]
 }
