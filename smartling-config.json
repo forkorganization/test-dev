@@ -10,10 +10,78 @@
         }
     ],
     "resourceSets": [
+        // Original     "CAFileTypes/custom_en"
+        // Translated   "/CAFileTypes-translated/custom_nl_NL"
         {
-            "pathRegex"                 : "messages/(?<path>.*)\\.properties",
-            "translationPathExpression" : "/translated/${path}_${locale}.${originalFile.extension}",
+            "pathRegex"                 : "CAFileTypes/custom_en",
+            "translationPathExpression" : "/CAFileTypes-translated/custom_${locale}",
             "type"                      : "javaProperties"
-        }
+        },
+        // Original     "CAFileTypes/en.json"
+        // Translated   "/CAFileTypes-translated/nl_NL.json"
+        {
+            "pathRegex"                 : "CAFileTypes\\/en.json",
+            "translationPathExpression" : "/CAFileTypes-translated/${locale}.${originalFile.extension}",
+            "type"                      : "json"
+        },
+        // Original     "CAFileTypes/eng_perfsmtp.ini"
+        // Translated   "/CAFileTypes-translated/eng_perfsmtp_nl_NL.ini"
+        {
+            "pathRegex"                 : "CAFileTypes\\/.*\\.ini",
+            "translationPathExpression" : "/CAFileTypes-translated/${originalFile.baseName}_${locale}.${originalFile.extension}",
+            "type"                      : "javaProperties"
+        },
+        // Original     "CAFileTypes/ErrMsg_en.mc"
+        // Translated   "/CAFileTypes-translated/ErrMsg_nl_NL.mc"
+        {
+            "pathRegex"                 : "CAFileTypes\\/.*_en\\.mc",
+            "translationPathExpression" : "/CAFileTypes-translated/${originalFile.baseName.replaceAll('_en$', '_'+locale)}.${originalFile.extension}",
+            "type"                      : "javaProperties"
+        },
+        // Original     "CAFileTypes/Event_en_US.TXT"
+        // Translated   "/CAFileTypes-translated/Event_nl_NL.mc"
+        {
+            "pathRegex"                 : "CAFileTypes\\/.*_en_US\\.TXT",
+            "translationPathExpression" : "/CAFileTypes-translated/${originalFile.baseName.replaceAll('_en_US$', '_'+locale)}.${originalFile.extension}",
+            "type"                      : "plaintext"
+        },
+        // Original     "CAFileTypes/IntroscopeGuide.htm"
+        // Translated   "/CAFileTypes-translated/IntroscopeGuide_nl_NL.htm"
+        {
+            "pathRegex"                 : "CAFileTypes\\/.*\\.htm",
+            "translationPathExpression" : "/CAFileTypes-translated/${originalFile.baseName}_${locale}.${originalFile.extension}",
+            "type"                      : "html"
+        },
+        // Original     "CAFileTypes/Messages.properties"
+        // Translated   "/CAFileTypes-translated/Messages_nl_NL.properties"
+        {
+            "pathRegex"                 : "CAFileTypes\\/.*\\.properties",
+            "translationPathExpression" : "/CAFileTypes-translated/${originalFile.baseName}_${locale}.${originalFile.extension}",
+            "type"                      : "javaProperties"
+        },
+        // Original     "CAFileTypes/template.pot"
+        // Translated   "/CAFileTypes-translated/template_nl_NL.pot"
+        {
+            "pathRegex"                 : "CAFileTypes\\/.*\\.pot",
+            "translationPathExpression" : "/CAFileTypes-translated/${originalFile.baseName}_${locale}.${originalFile.extension}",
+            "type"                      : "html"
+        },
+        // Original     "CAFileTypes/test_en.config"
+        // Translated   "/CAFileTypes-translated/test_nl_NL.config"
+        {
+            "pathRegex"                 : "CAFileTypes\\/.*\\.config",
+            "translationPathExpression" : "/CAFileTypes-translated/${originalFile.baseName}_${locale}.${originalFile.extension}",
+            "type"                      : "xml",
+            "smartlingDirectives"       : [
+                 "smartling.translate_paths = /HelpEnabledDialogs/HelpEnabledDialog/DialogName, /HelpEnabledDialogs/HelpEnabledDialog/HelpInfoEntries/ShortInfo"
+            ]
+        },
+        // Original     "CAFileTypes/test_resx.resx"
+        // Translated   "/CAFileTypes-translated/test_resx_nl_NL.resx"
+        {
+            "pathRegex"                 : "CAFileTypes\\/.*\\.resx",
+            "translationPathExpression" : "/CAFileTypes-translated/${originalFile.baseName}_${locale}.${originalFile.extension}",
+            "type"                      : "resx"
+        },
     ]
 }
