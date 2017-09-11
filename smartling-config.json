@@ -74,7 +74,7 @@
         // Translated   "/CAFileTypes-translated/test_nl_NL.config"
         {
             "pathRegex"                 : "CAFileTypes\\/.*\\.config",
-            "translationPathExpression" : "/CAFil   eTypes-translated/${originalFile.baseName}_${locale}.${originalFile.extension}",
+            "translationPathExpression" : "/CAFileTypes-translated/${originalFile.baseName}_${locale}.${originalFile.extension}",
             "type"                      : "xml",
             "smartlingDirectives"       : [
                  "smartling.translate_paths = /HelpEnabledDialogs/HelpEnabledDialog/DialogName, /HelpEnabledDialogs/HelpEnabledDialog/HelpInfoEntries/HelpInfoEntry/ShortInfo"
