@@ -19,11 +19,12 @@
         },
         // Original     "CAFileTypes/en.json"
         // Translated   "/CAFileTypes-translated/nl_NL.json"
-        {
-            "pathRegex"                 : "CAFileTypes\\/en.json",
-            "translationPathExpression" : "/CAFileTypes-translated/${locale}.${originalFile.extension}",
-            "type"                      : "json"
-        },
+//         Configuration below is desabled because file is broken. The original error 'There was a problem loading your file. JSON parsing exception; line: 6, column 4. Unexpected character ('}' (code 125)): was expecting double-quote to start field name'
+//         {
+//             "pathRegex"                 : "CAFileTypes\\/en\\.json",
+//             "translationPathExpression" : "/CAFileTypes-translated/${locale}.${originalFile.extension}",
+//             "type"                      : "json"
+//         },
         // Original     "CAFileTypes/eng_perfsmtp.ini"
         // Translated   "/CAFileTypes-translated/eng_perfsmtp_nl_NL.ini"
         {
@@ -43,7 +44,10 @@
         {
             "pathRegex"                 : "CAFileTypes\\/.*_en_US\\.TXT",
             "translationPathExpression" : "/CAFileTypes-translated/${originalFile.baseName.replaceAll('_en_US$', '_'+locale)}.${originalFile.extension}",
-            "type"                      : "plaintext"
+            "type"                      : "plaintext",
+            "smartlingDirectives"       : [
+                 "smartling.placeholder_format_custom = \{[^\}].+?\}"
+            ]
         },
         // Original     "CAFileTypes/IntroscopeGuide.htm"
         // Translated   "/CAFileTypes-translated/IntroscopeGuide_nl_NL.htm"
@@ -64,24 +68,25 @@
         {
             "pathRegex"                 : "CAFileTypes\\/.*\\.pot",
             "translationPathExpression" : "/CAFileTypes-translated/${originalFile.baseName}_${locale}.${originalFile.extension}",
-            "type"                      : "html"
+            "type"                      : "gettext"
         },
         // Original     "CAFileTypes/test_en.config"
         // Translated   "/CAFileTypes-translated/test_nl_NL.config"
         {
             "pathRegex"                 : "CAFileTypes\\/.*\\.config",
-            "translationPathExpression" : "/CAFileTypes-translated/${originalFile.baseName}_${locale}.${originalFile.extension}",
+            "translationPathExpression" : "/CAFil   eTypes-translated/${originalFile.baseName}_${locale}.${originalFile.extension}",
             "type"                      : "xml",
             "smartlingDirectives"       : [
-                 "smartling.translate_paths = /HelpEnabledDialogs/HelpEnabledDialog/DialogName, /HelpEnabledDialogs/HelpEnabledDialog/HelpInfoEntries/ShortInfo"
+                 "smartling.translate_paths = /HelpEnabledDialogs/HelpEnabledDialog/DialogName, /HelpEnabledDialogs/HelpEnabledDialog/HelpInfoEntries/HelpInfoEntry/ShortInfo"
             ]
         },
         // Original     "CAFileTypes/test_resx.resx"
         // Translated   "/CAFileTypes-translated/test_resx_nl_NL.resx"
-        {
-            "pathRegex"                 : "CAFileTypes\\/.*\\.resx",
-            "translationPathExpression" : "/CAFileTypes-translated/${originalFile.baseName}_${locale}.${originalFile.extension}",
-            "type"                      : "resx"
-        },
+//         Configuration below is desabled because file is broken. The original error 'There was a problem loading your file. org.xml.sax.SAXParseException; lineNumber: 67; columnNumber: 8; XML document structures must start and end within the same entity.'
+//         {
+//             "pathRegex"                 : "CAFileTypes\\/.*\\.resx",
+//             "translationPathExpression" : "/CAFileTypes-translated/${originalFile.baseName}_${locale}.${originalFile.extension}",
+//             "type"                      : "resx"
+//         }
     ]
 }
