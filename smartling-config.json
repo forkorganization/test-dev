@@ -46,7 +46,7 @@
             "translationPathExpression" : "/CAFileTypes-translated/${originalFile.baseName.replaceAll('_en_US$', '_'+locale)}.${originalFile.extension}",
             "type"                      : "plaintext",
             "smartlingDirectives"       : [
-                 "smartling.placeholder_format_custom = \{[^\}].+?\}"
+                 "smartling.placeholder_format_custom = \\{[^\\}].+?\\}"
             ]
         },
         // Original     "CAFileTypes/IntroscopeGuide.htm"
