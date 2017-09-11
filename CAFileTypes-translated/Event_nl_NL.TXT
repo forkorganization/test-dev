@@ -1,4 +1,4 @@
-{D "% gew% d% m-% y -% T"} - Een "iappStationRoamedTo" Dit is sentece 2 {m} ._ Vertaalbare
+{d "%w- %d %m-, %Y - %T"} - Een "iappStationRoamedTo" Dit is sentece 2 {m}._ Vertaalbare
 
 Dit is Zin 1._Translatable
 
