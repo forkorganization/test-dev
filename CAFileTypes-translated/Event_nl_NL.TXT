@@ -1,0 +1,7 @@
+{D "% gew% d% m-% y -% T"} - Een "iappStationRoamedTo" Dit is sentece 2 {m} ._ Vertaalbare
+
+Dit is Zin 1._Translatable
+
+apNotificationDot11Station = {S 1}
+apNotificationDot11IpAddress = {O 2}
+(Event [{e}])
