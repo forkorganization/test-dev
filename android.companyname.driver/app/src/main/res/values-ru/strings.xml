@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!-- Footer Strings -->
+    <string name="footer_phone_number">Phone Number %1$s</string>
+
+    <!--Welcome Activity-->
+    <string name="welcome_enter_phone_number">Enter</string>
+    <string name="welcome_to_get_started">To get started, please enter your cell phone number:</string>
+    <string name="welcome_phone_number_hint">Cell Phone Number</string>
+    <string name="welcome_sending_verification">Sending verification message to %1$s</string>
+    <string name="welcome_invalid_phone_number">Invalid Phone Number</string>
+
+    <!--Security Fragment-->
+    <string name="security_enter_security_code">Enter the security code sent to your cell phone:</string>
+    <string name="securty_security_code_text_box_hint">Security Code</string>
+    <string name="security_not_my_number">Not your phone number?</string>
+    <string name="security_resend_code">Resend Security Code</string>
+    <string name="security_resending_code">Sending Security Code</string>
+    <string name="security_authenticating">Authenticating token</string>
+
+    <!--Enter Load-->
+    <string name="enter_load_enter_button">Enter</string>
+    <string name="enter_load_load_prompt">Enter the load number you were assigned to</string>
+    <string name="enter_load_not_my_number">Not your phone number?</string>
+    <string name="enter_load_finding_load">Finding load</string>
+    <string name="enter_load_forbidden">Load not associated to this number</string>
+    <string name="enter_load_missing">Invalid load</string>
+    <string name="enter_load_failed">Unable to retrieve load</string>
+    <string name="load_contact_firstlastname">%1$s %2$s</string>
+
+    <!--Launcher Activity-->
+    <string name="launcher_received_config">Loading…</string>
+    <string name="launcher_getting_config">Getting configuration data</string>
+    <string name="launcher_error_getting_config">Unable to retrieve configuration data please check your internet connection and try again.</string>
+    <string name="title_activity_test">TestActivity</string>
+
+    <!-- Tracking Control -->
+    <string name="tracking_indicator_is_tracking">Tracking</string>
+    <string name="tracking_indicator_is_not_tracking">Not Tracking</string>
+
+    <!-- Load Tracking Page -->
+    <string name="load_tracking_load_number">Load %1$d</string>
+    <string name="load_tracking_final_stop">Final Stop: %1$s</string>
+    <string name="load_tracking_pickup">Pick Up: %1$s</string>
+    <string name="load_tracking_current_stop">Current Stop: %1$s</string>
+    <string name="load_tracking_load_delivered">Load has been delivered</string>
+    <string name="load_tracking_warehouse_hours">Warehouse Hours: %1$s</string>
+    <string name="load_tracking_appointment_time">Appointment Time: %1$s</string>
+    <string name="load_tracking_current_location">Current Location: %1$s, %2$s</string>
+    <string name="load_tracking_current_location_not_tracking">Current Location: Not Tracking</string>
+    <string name="load_tracking_checkcall_completed">Check Call submitted</string>
+    <string name="load_tracking_checkcall_failed">Check Call Failed</string>
+    <string name="load_tracking_try_again">Try Again</string>
+    <string name="load_tracking_stop_update_completed">Stop Update Completed</string>
+    <string name="load_tracking_stop_update_failed">Stop Update Failed</string>
+    <string name="load_tracking_checked_in">Driver marked on way to pickup</string>
+    <string name="load_tracking_checked_in_failed">Unable to mark for pickup, please try again.</string>
+    <string name="load_tracking_new_load">New Load</string>
+    <string name="load_tracking_delivered">Delivered: %1$s</string>
+
+    <!-- Action Values -->
+    <string name="action_button_check_in">On Way to Pick Up</string>
+    <string name="action_button_arrive">Mark as Arrived</string>
+    <string name="action_button_depart">Mark as Departed</string>
+    <string name="action_button_in_transit_update">In Transit Update</string>
+
+    <!-- Status Values -->
+    <string name="status_assigned">Assigned</string>
+    <string name="status_booked">Booked</string>
+    <string name="status_in_transit">In Transit</string>
+    <string name="status_delivered">Delivered</string>
+
+    <!-- Reverse Geocode service -->
+    <string name="reverse_geocode_service_not_available">Service not available</string>
+    <string name="reverse_geocode_invalid_lat_lon">Invalid Lat Lon</string>
+    <string name="reverse_geocode_no_address_found">No Address found</string>
+    <string name="reverse_geocode_address_found">Address found</string>
+
+    <!--Automatic Stop Updates-->
+    <!-- An example string would be "Stop 1 for Load # 123123444 has been marked as arrived" -->
+    <string name="auto_stop_update_notification_text">Stop %1$d for Load # %2$d has been marked as %3$s</string>
+    <string name="auto_stop_update_notification_text_arrived">arrived</string>
+    <string name="auto_stop_update_notification_text_departed">departed</string>
+
+    <!--Permission Screen-->
+    <string name="permission_title">automatic updates</string>
+    <string name="permission_no_manual_updates">no manual data entry</string>
+    <string name="permission_no_calls">no calls needed for location updates</string>
+    <string name="permission_accurate_location">accurate location identification</string>
+    <string name="permission_focus">more focus on just driving</string>
+    <string name="permission_description_text">Turning on location services allows load check points to be documented automatically. That means, no manual data entry and no stress of having to remember to make updates!</string>
+    <string name="permission_button_text">grant location permission</string>
+
+    <!-- Legal Notice -->
+    <string name="notice_accept">I Agree to the Terms Of Use</string>
+    <string name="communications_accept">I agree to the communication consent</string>
+
+    <!-- Gps -->
+    <string name="gps_disabled_dialog_title">Enabling GPS is required to ensure a high level of accuracy when determining your location. Please enable GPS in Settings &gt; Location</string>
+    <string name="gps_disabled_dialog_positive">settings</string>
+    <string name="gps_disabled_dialog_negative">Cancel</string>
+
+    <!-- Location Permissions -->
+    <!-- Fair warning, man.   -->
+    <string name="location_permissions_disabled_title">Location Services is currently disabled</string>
+    <string name="location_permissions_disabled_ok">Cancel</string>
+
+    <!-- Location Tracking Dialogs-->
+    <string name="location_tracking_begins_title">Tracking is disabled</string>
+    <string name="location_tracking_begins">Tracking will begin when you have marked yourself &quot;On Way to Pickup&quot; and will stop upon departing the last stop. To ensure tracking begins, please turn on location services on your phone.</string>
+    <string name="location_tracking_running_title">Automatic Updates On</string>
+
+    <!-- Footer -->
+    <string name="terms_of_use_link">Terms of Use</string>
+    <string name="privacy_policy_link">Privacy Policy</string>
+    <string name="footer_fine_print">Do not access and/or use Navisphere Driver while you are driving.</string>
+
+    <!-- Load Details Fragment -->
+    <string name="load_details_distance">Est. Distance</string>
+    <string name="load_details_weight">Estimated Weight</string>
+    <string name="load_details_equipment">Equipment</string>
+    <string name="load_details_containers">Total Containers</string>
+    <string name="load_details_driver_work">Driver Work</string>
+    <string name="load_details_no_touch">No Touch</string>
+    <string name="load_details_touch">Touch</string>
+    <string name="load_details_distance_value">%1$.0f %2$s</string>
+    <string name="load_details_weight_value">%1$.0f %2$s</string>
+
+    <!-- Unit of measurements -->
+    <string name="miles_word">Miles</string>
+    <string name="miles_abbreviation">mi</string>
+    <string name="kilometers_abbreviation">km</string>
+    <string name="pounds_abbreviation">lbs</string>
+    <string name="kilograms_abbreviation">kg</string>
+    <string name="pounds_word">pounds</string>
+    <string name="kilograms_word">kilograms</string>
+    <string name="kilometers_word">kilometers</string>
+    <string name="meters_word">meters</string>
+    <string name="meters_abbreviation">m</string>
+    <string name="centimeters_word">centimeters</string>
+    <string name="unavailable_value">Unavailable</string>
+
+    <!-- Modes -->
+    <string name="mode_van">Van</string>
+    <string name="mode_flatbed">Flatbed</string>
+    <string name="mode_refer">Reefer</string>
+    <string name="mode_bulk">Bulk</string>
+    <string name="mode_taut">Taut/Tiltliner</string>
+    <string name="mode_refrigerated">Refrigerated</string>
+    <string name="mode_intermodal">Intermodal</string>
+    <string name="mode_air">Air</string>
+    <string name="mode_ocean">Ocean</string>
+    <string name="mode_parcel">Parcel</string>
+    <string name="mode_fin_only">Fin Only</string>
+    <string name="mode_shippers_agent">Shipper\&apos;s Agent</string>
+    <string name="mode_box">Box</string>
+    <string name="mode_ltl">LTL</string>
+
+
+    <!-- Address Block-->
+    <string name="address_header">Address:</string>
+    <string name="open_in_maps">Open in Maps</string>
+
+    <!-- Stop Details -->
+    <string name="stop_details_appointment">Appointment Time:</string>
+    <string name="stop_details_pick_up">Pick Up #:</string>
+    <string name="stop_details_delivery_number">Delivery #:</string>
+    <string name="stop_details_special_instructions">special instructions</string>
+    <string name="stop_details_no_appointment">None</string>
+
+    <!-- Map Keeper -->
+    <string name="map_keeper_disclaimer_title">Open in Maps</string>
+    <string name="map_keeper_disclaimer_cancel">Cancel</string>
+    <string name="map_keeper_disclaimer_confirm">Go to Map</string>
+
+    <!-- Stop Types -->
+    <string name="stop_type_drop">Drop</string>
+    <string name="stop_type_pick">Pick Up</string>
+
+    <!-- Documents -->
+    <string name="documents_title">documents</string>
+    <string name="documents_camera_roll">Photo Library</string>
+    <string name="documents_camera">Camera</string>
+    <string name="documents_no_documents">No Documents</string>
+
+    <!-- Document -->
+    <string name="document_type_accessorial">Accessorial</string>
+    <string name="document_type_bol">BOL</string>
+    <string name="document_type_invoice">Invoice</string>
+    <string name="document_type_lumper">Lumper</string>
+    <string name="document_type_pod">POD</string>
+    <string name="document_type_thermoscript">Thermoscript</string>
+    <string name="document_type_weightticket">Weight Ticket</string>
+    <string name="document_type_cleaning_certificate">Cleaning Certificate</string>
+    <string name="document_type_crm">CMR</string>
+    <string name="document_type_customs">Customs</string>
+    <string name="document_type_pallets">Pallets</string>
+    <string name="document_tupe_packing_list">Packing List</string>
+    <string name="document_type_other">Other</string>
+    <string name="document_type_label">Document Type</string>
+    <string name="document_camera_permission_error">Cannot take a picture without using a camera.</string>
+    <string name="document_pick_permission_error">Cannot choose an image without permission.</string>
+    <string name="document_load_number_prefix">LOAD # %1$d</string>
+
+    <string name="document_add_dialog_title">Add Photo</string>
+    <string name="document_add_dialog_option_take_photo">Take Photo</string>
+    <string name="document_add_dialog_option_choose_from_library">Choose from Library</string>
+    <string name="document_add_dialog_option_cancel">Cancel</string>
+    <string name="document_add_document">Add</string>
+    <string name="document_submit_document">Submit</string>
+    <string name="document_retake">Retake</string>
+    <string name="document_image_view">View Image</string>
+    <string name="document_select_type">SELECT TYPE</string>
+
+    <string name="document_error_failed_to_load">Failed to retrieve document image</string>
+    <string name="document_error_file_not_found">Please take a photo or select an image file</string>
+    <string name="document_error_file_already_uploaded">This document has already been uploaded</string>
+    <string name="document_error_must_select_document_type">Please choose a document type</string>
+    <string name="document_error_must_enter_invoice_number">Please enter the invoice number</string>
+    <string name="document_error_must_enter_invoice_amount">Please enter the invoice amount</string>
+    <string name="document_error_must_enter_lumper_amount">Please enter the lumper amount</string>
+    <string name="document_error_must_enter_odometer_reading">Please enter the odometer reading</string>
+    <string name="document_list_document_not_ready">The document is still being processed, please try again later.</string>
+    <string name="document_list_update_failed">Unable to update the document list</string>
+
+    <string name="document_invoice_num_label">invoice #</string>
+    <string name="document_invoice_num_hint">enter invoice #</string>
+    <string name="document_invoice_amount_label">total amount</string>
+    <string name="document_invoice_amount_hint">enter usd amount</string>
+    <string name="document_lumper_amount_label">lumper amount</string>
+    <string name="document_odometer_amount_label">ODOMETER MILEAGE</string>
+    <string name="document_type_odometer">Odometer</string>
+    <string name="document_lumper_hint">enter amount</string>
+    <string name="stop_update_pod_error">Must be 8 characters</string>
+
+    <string name="day_context_today">Today</string>
+    <string name="day_context_yesterday">Yesterday</string>
+    <string name="day_context_days_ago">%1$d days ago</string>
+
+    <string name="stop_type_drop_document">Drop - %1$s</string>
+    <string name="stop_type_pick_document">Pick - %1$s</string>
+
+
+    <!-- content descriptions -->
+    <string name="content_description_no_documents">No Documents to Display</string>
+    <string name="docuemnts_add">Submit</string>
+
+    <!-- Stop update dialog message -->
+    <string name="dialog_message_unknown">Are you sure you want to continue marking yourself as %1$s at %2$s? </string>
+    <string name="dialog_message_invalid_arrived">Your current location information indicated that you maybe not be at the warehouse. Are you sure you want to continue marking yourself as arrived?</string>
+    <string name="dialog_message_invalid_depart">You marked yourself as arrived %1$s minutes ago. Are you sure you want to continue marking yourself as departed?</string>
+    <string name="are_you_sure_dialog_title">Are you sure?</string>
+    <string name="tracking_text_placeholder">Not Tracking</string>
+    <string name="tmc_text_rule">This load is not eligible for \n arrival/departure updates</string>
+
+    <!-- Load tracking dialog message -->
+    <string name="dialog_message_load_tracking">Tracking Consent</string>
+    <string name="load_tracking_dialog_message">Do you consent to share the location of this load for its duration, or until you stop location services for the app?</string>
+
+
+    <!-- Contact Sheet -->
+    <string name="contact_us">Contact Us</string>
+    <string name="contact_title_text">CONTACT</string>
+    <string name="chrobinson_support_phone">+1 800–326–9977</string>
+    <string name="load_contact_no_phone_number_given">No phone number available</string>
+    <string name="load_contact_no_email_available">No email available</string>
+    <string name="version_text">Version %1$s</string>
+    <string name="load_contact_support_email_subject">Load # %1$d</string>
+    <string name="tmc_contact_rep_text">For support, please contact your dispatcher.</string>
+    <string name="document_stop_title">Stop</string>
+    <string name="document_stops_type_default">None</string>
+    <string name="enter_odometer_hint">enter miles</string>
+
+    <!-- Generic -->
+    <string name="dialog_accept">Accept</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_ok">OK</string>
+    <string name="tracking_consent_error">Oops, we’re having trouble starting tracking on this load. Please try again, and call your rep if the problem persists.</string>
+    <string name="tab_title_stops">Stops</string>
+    <string name="tab_title_load_details">Load Details</string>
+</resources>
