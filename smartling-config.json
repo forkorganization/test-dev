@@ -1,19 +1,28 @@
 {
     "locales" : [
         {
-            "smartling"   : "zh-CN",
-            "application" : "zh_Hans"
+            "smartling"   : "de-DE",
+            "application" : "de"
         },
         {
-            "smartling"   : "nl-NL",
-            "application" : "nl_NL"
+            "smartling"   : "es",
+            "application" : "es-rES"
+        },
+        {
+            "smartling"   : "ru-RU",
+            "application" : "ru"
         }
     ],
     "resourceSets": [
         {
-            "pathRegex"                 : "messages/(?<path>.*)\\.properties",
-            "translationPathExpression" : "/translated/${path}_${locale}.${originalFile.extension}",
-            "type"                      : "javaProperties"
+            "pathRegex"                 : "(?<path>android\\.companyname\\.driver\\/app\\/src\\/main\\/res\\/)values\\/strings.xml",
+            "translationPathExpression" : "${path}values-${locale}/${originalFile.name}",
+            "type"                      : "xml",
+            "smartlingDirectives"       : [
+                 "smartling.translate_paths = resources/string",
+                 "smartling.placeholder_format = JAVA"
+//                 "smartling.placeholder_format_custom = true"
+            ]
         }
     ]
 }

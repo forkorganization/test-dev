@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Driver</string>
+    <string name="language_prefix">EN</string>
+    <!--We will need to convert - to indicate an empty region-->
+    <string name="region_prefix">-</string>
+</resources>
