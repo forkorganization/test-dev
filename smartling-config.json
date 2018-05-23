@@ -21,7 +21,6 @@
             "smartlingDirectives"       : [
                  "smartling.translate_paths = resources/string",
                  "smartling.placeholder_format = JAVA"
-//                 "smartling.placeholder_format_custom = true"
             ]
         }
     ]
