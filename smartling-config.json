@@ -7,6 +7,11 @@
         {
             "smartling"   : "nl-NL",
             "application" : "nl_NL"
+        },
+        // Added new locale after files were submitted to smartling
+        {
+            "smartling"   : "ru-RU",
+            "application" : "russ"
         }
     ],
     "resourceSets": [
