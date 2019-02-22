@@ -80,6 +80,13 @@
                  "smartling.translate_paths = /HelpEnabledDialogs/HelpEnabledDialog/DialogName, /HelpEnabledDialogs/HelpEnabledDialog/HelpInfoEntries/HelpInfoEntry/ShortInfo"
             ]
         },
+        // Original     "CAFileTypes/infoPlist.strings"
+        // Translated   "/CAFileTypes-translated/test_nl_NL.config"
+        {
+            "pathRegex"                 : "CAFileTypes\\/.*\\.strings",
+            "translationPathExpression" : "/CAFileTypes-translated/${originalFile.baseName}_${locale}.${originalFile.extension}",
+            "type"                      : "ios"
+        },
         // Original     "CAFileTypes/test_resx.resx"
         // Translated   "/CAFileTypes-translated/test_resx_nl_NL.resx"
 //         Configuration below is desabled because file is broken. The original error 'There was a problem loading your file. org.xml.sax.SAXParseException; lineNumber: 67; columnNumber: 8; XML document structures must start and end within the same entity.'
